@@ -27,3 +27,13 @@ Using AWS services, create a custom VPC (Virtual private cloud) with public subn
 4. Create a Route Table
 ![Image](https://github.com/user-attachments/assets/a1e32784-ca60-4e5f-8169-beba47fc348a)
 
+5. Associate Subnets to Route Table
+![Image](https://github.com/user-attachments/assets/c48c2d08-cf41-430c-8424-ede7fa1acd90)
+
+6. Edit Route Table to use your Internet Gateway
+![Image](https://github.com/user-attachments/assets/ce5701df-e034-4225-943d-7df0d2283b42)
+
+![Image](https://github.com/user-attachments/assets/9aff87ec-93ec-412d-aef0-156b4cd251c1)
+
+7. Launch two EC2 servers running Ubuntu Operating System (OS)
+![Image](https://github.com/user-attachments/assets/42ae9d6b-07ef-44ff-8a3c-78cf090b0488)
