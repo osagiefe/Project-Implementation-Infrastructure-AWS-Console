@@ -37,3 +37,32 @@ Using AWS services, create a custom VPC (Virtual private cloud) with public subn
 
 7. Launch two EC2 servers running Ubuntu Operating System (OS)
 ![Image](https://github.com/user-attachments/assets/42ae9d6b-07ef-44ff-8a3c-78cf090b0488)
+
+8. Connect to the nginx server using the public IP address
+![Image](https://github.com/user-attachments/assets/6c1bf496-860a-4e01-a2d4-c86086f63c14)
+
+9. Connect to the Apache2 Webserver via the public IP address
+![Image](https://github.com/user-attachments/assets/ebac4a98-021d-4c87-926a-caf7adfb7a20)
+
+# Project Challenges:
+
+The Apache2 Webserver failed to run after launching the instance in AWS:
+
+# Error Message:
+![Image](https://github.com/user-attachments/assets/1a43aca3-b413-461f-887b-96e770942d70)
+
+# Solution:
+1. Connect via ssh to the public address with your vscode
+
+2. Check to see if apache2 is installed, rerun the install script. If unsuccessful, purge Apache2 from the server and install again. 
+![Image](https://github.com/user-attachments/assets/d6d9e7b1-3347-4cb7-9284-9069e251e358)
+
+3. Apache2 is successfully running
+ ![Image](https://github.com/user-attachments/assets/d07ea31a-b54b-4ca1-af37-9793143723f7)
+
+# Project summary:
+This project was implemented using Amazon Web Services (AWS) Console.
+It details the creation of a custom Virtual Private Cloud (VPC) with public subnets, the launch of two EC2 Ubuntu server instances in separate availability zones, 
+and the installation of Apache2 and nginx servers on these instances. The project steps include creating a VPC, attaching an Internet Gateway, creating and associating subnets, 
+configuring a Route Table, and ensuring connectivity via public IP addresses. The challenge I encountered was the failure of the Apache2 webserver, this was due to the bash script failure at server launch. 
+This issue was resolved by reinstalling the Apache2 software through CLI connection to AWS using vscode. 
