@@ -21,3 +21,9 @@ Using AWS services, create a custom VPC (Virtual private cloud) with public subn
 2. Create Internet Gateway and attach it to VPC
 ![Image](https://github.com/user-attachments/assets/7f4b227a-5fe8-4303-aef2-4d760bb764e5)
 
+3. Create Subnets: aws-project1-Pub-subnet-01 and aws-project1-Pub-subnet-02 respectively and “attach” them to the VPC
+![Image](https://github.com/user-attachments/assets/a4d4ae41-39ca-46aa-aa0f-b65c75df1d32)
+
+4. Create a Route Table
+![Image](https://github.com/user-attachments/assets/a1e32784-ca60-4e5f-8169-beba47fc348a)
+
